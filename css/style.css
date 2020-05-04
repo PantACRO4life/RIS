@@ -1,0 +1,89 @@
+/* ------- DISABLED SHIT ------- ---------- */
+ body {
+     margin:0;
+     background: #dcdde1;
+     color: #000000;
+     font-family:Tahoma;
+}
+ #discord {
+     padding-top:100px;
+}
+ .titleserver {
+     font-weight:bold;
+     font-size:large;
+}
+ table, tr, th {
+     border: 2px solid #222f3e;
+     text-align: center;
+}
+ th:hover {
+     background-color: #222f3e;
+}
+ .pantacronavbar {
+     height:50px;
+     border-radius: 20px;
+     padding:initial;
+}
+ .navbar {
+     border-radius: 20px;
+     overflow: hidden;
+     background-color: #333;
+     position: fixed;
+     top: 0;
+     z-index:1;
+     width: 100%;
+}
+ .navbar a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 19px;
+     text-decoration: none;
+     font-size: 32px;
+}
+ .navbar a:hover {
+     background: #ddd;
+     border-radius: 20px;
+     color: black;
+}
+ #spacer:hover {
+     background: none;
+     color: #f2f2f2;
+}
+ .main {
+     padding: 16px;
+     margin-top: 90px;
+     height: 1500px;
+    /* Used in this example to enable scrolling */
+}
+ .page {
+     margin-left: 250px;
+}
+ .vertical-menu {
+     width: 200px;
+     height:100%;
+     float:left;
+     border-radius: 20px;
+     position:fixed;
+}
+ .vertical-menu a {
+     background-color: #f2f2f2;
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 20px;
+     display: block;
+     margin-bottom: 5px;
+     padding: 22px;
+     text-decoration: none;
+}
+ .vertical-menu a:hover {
+     background-color: #2f2929;
+     border-radius: 20px;
+}
+ .vertical-menu a.active {
+     background-color: #333;
+     color: white;
+}
+ 
